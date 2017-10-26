@@ -1,0 +1,42 @@
+/* Google Fonts - Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
+
+/* OneDay font - beautiful btw <3 */
+@font-face {
+    font-family: oneday;
+    src: url(fonts/ONEDAY.ttf);
+    src: url(fonts/ONEDAY.otf);
+}
+
+/* For big page titles */
+#title {
+    font-family: oneday, Arial, sans-serif;
+    font-size: 75px;
+    margin-top: 175px;
+    margin-bottom: 125px;
+}
+
+body {
+    font-family: Lato, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 30px;
+    margin-top: 100px;
+    text-align: center;
+    /* Fade-in animation */
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    0% {color: black;}
+    15% {color: black;}
+    100% {color: white;}
+}
+
+/* Remove color from <a> links */
+a {
+    color: white;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
