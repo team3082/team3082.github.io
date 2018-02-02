@@ -8,12 +8,49 @@
     src: url(fonts/ONEDAY.otf);
 }
 
+.container {
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+}
+
+.column-flex {
+    display: flex;
+
+    flex-direction: column;
+}
+
+#logo {
+    display: flex;
+    order: 0;
+    height: 220px;
+}
+
 /* For big page titles */
 #title {
+    display: flex;
+    justify-content: flex-end;
+    order: 1;
+    margin: auto;
+    margin-bottom: 25px;
+
     font-family: oneday, Arial, sans-serif;
     font-size: 75px;
-    margin-top: 175px;
-    margin-bottom: 125px;
+    margin-left: 25px;
+}
+
+#description {
+    display: flex;
+    justify-content: center;
+    order: 1;
+    margin: auto;
+}
+
+#ghlink {
+    display: flex;
+    justify-content: center;
+    order: 2;
+    margin: auto;
 }
 
 body {
